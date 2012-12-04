@@ -9,8 +9,6 @@
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
     <rule ref="Generic.WhiteSpace.ScopeIndent"/>
     <rule ref="Generic.PHP.LowerCaseConstant"/>
-    <!--<rule ref="Squiz.Classes.ValidClassName"/>-->
-    <rule ref="PEAR.Classes.ClassDeclaration"/>
     <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
     <rule ref="Squiz.ControlStructures.ControlSignature"/>
     <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>
@@ -32,6 +30,8 @@
         </properties>
     </rule>
     
+    <rule ref="PSRShopcade.Classes.ValidClassName"/>
+    
     <rule ref="Zend.Files.ClosingTag"/>
-    <rule ref="PSR.NamingConventions.ValidFunctionName"/>
+    <rule ref="PSRShopcade.NamingConventions.ValidFunctionName"/>
 </ruleset>
