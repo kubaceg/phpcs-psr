@@ -9,7 +9,8 @@
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
     <rule ref="Generic.WhiteSpace.ScopeIndent"/>
     <rule ref="Generic.PHP.LowerCaseConstant"/>
-    <rule ref="Squiz.Classes.ValidClassName"/>
+    <!--<rule ref="Squiz.Classes.ValidClassName"/>-->
+    <rule ref="PEAR.Classes.ClassDeclaration"/>
     <rule ref="Squiz.Classes.LowercaseClassKeywords"/>
     <rule ref="Squiz.ControlStructures.ControlSignature"/>
     <rule ref="Squiz.ControlStructures.ForEachLoopDeclaration"/>
@@ -20,8 +21,8 @@
     
     <rule ref="Generic.Files.LineLength">
         <properties>
-            <property name="lineLimit" value="80"/>
-            <property name="absoluteLineLimit" value="120"/>
+            <property name="lineLimit" value="180"/>
+            <property name="absoluteLineLimit" value="180"/>
         </properties>
     </rule>
     
