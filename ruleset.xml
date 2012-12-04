@@ -23,15 +23,13 @@
             <property name="absoluteLineLimit" value="180"/>
         </properties>
     </rule>
-    
+
     <rule ref="Generic.Files.LineEndings">
         <properties>
             <property name="eolChar" value="\n"/>
         </properties>
     </rule>
-    
-    <rule ref="PSRShopcade.Classes.ValidClassName"/>
-    
     <rule ref="Zend.Files.ClosingTag"/>
+    <rule ref="PSRShopcade.Classes.ValidClassName"/>
     <rule ref="PSRShopcade.NamingConventions.ValidFunctionName"/>
 </ruleset>
