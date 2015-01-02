@@ -30,6 +30,6 @@
         </properties>
     </rule>
     <rule ref="Zend.Files.ClosingTag"/>
-    <rule ref="PSRShopcade.Classes.ValidClassName"/>
-    <rule ref="PSRShopcade.NamingConventions.ValidFunctionName"/>
+    <rule ref="PSR.Classes.ValidClassName"/>
+    <rule ref="PSR.NamingConventions.ValidFunctionName"/>
 </ruleset>

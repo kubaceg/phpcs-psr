@@ -27,7 +27,7 @@
  * @version   Release: 1.4.2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class PSRShopcade_Sniffs_Classes_ValidClassNameSniff implements PHP_CodeSniffer_Sniff
+class PSR_Sniffs_Classes_ValidClassNameSniff implements PHP_CodeSniffer_Sniff
 {
 
 
