@@ -68,9 +68,8 @@ How to use
 2. Clone this repository to a folder called PSR inside your CodeSniffer
    Standards directory (eg.: /usr/share/php/PHP/CodeSniffer/Standards)
 
-        cd /usr/share/php/PHP/CodeSniffer/Standards
-        git clone https://github.com/klaussilveira/phpcs-psr PSR
+        git clone https://github.com/kubaceg/phpcs-psr.git /usr/share/php/PHP/CodeSniffer/Standards/PSR
 
-3. Set PSR as the default sniff for CodeSniffer:
+3. Check your code:
 
-        phpcs --config-set default_standard PSR
+         phpcs --standard=PSR /path/to/code
