@@ -16,6 +16,10 @@
     <rule ref="Squiz.ControlStructures.LowercaseDeclaration"/>
     <rule ref="Squiz.Scope.MemberVarScope"/>
     <rule ref="Squiz.Scope.MethodScope"/>
+    <rule ref="Zend.NamingConventions.ValidVariableName">
+        <!-- Excluding as it conflicts with the PSR2 standard which over rides this one -->
+        <exclude name="Zend.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+    </rule>
     
     <rule ref="Generic.Files.LineLength">
         <properties>
